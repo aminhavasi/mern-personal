@@ -1,0 +1,28 @@
+.btn-anim {
+    color: chartreuse;
+    animation-name: example;
+
+    position: relative;
+
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+@keyframes example {
+    0% {
+        color: red;
+        left: 0px;
+        top: 0px;
+    }
+    50% {
+        color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    100% {
+        color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
